@@ -1,6 +1,6 @@
 const add1 = require('../solutions/1.js')
-const add2 = (a,b,c)=>{
-  if(add1(a,b) == c){
+const add2 = (num1,num2,result)=>{
+  if(add1(num1,num2) == result){
     console.log("your program is perfect");
   }else{
     console.log("there is an error in your program")
