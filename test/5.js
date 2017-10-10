@@ -12,5 +12,5 @@ const test = (n)=>{
     console.log("your test is in correct");
   }
 }
-test(4)
-test(5)
+test(4);
+test(5);

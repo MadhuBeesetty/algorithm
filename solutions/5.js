@@ -1,6 +1,6 @@
 const funct = (num,fun,i=0)=>{
   if(i<num){
-    fun()
+    fun();
     funct(num,fun,i+1)
   }
 }
