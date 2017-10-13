@@ -1,6 +1,6 @@
 const divisible = require('../solutions/11.js')
-const test = (a,b,result)=>{
-  if(divisible(a,b)==result){
+const test = (number,divNum,result)=>{
+  if(divisible(number,divNum)==result){
     console.log("man your code works");
   }else{
     console.log("sorry there is an error");
