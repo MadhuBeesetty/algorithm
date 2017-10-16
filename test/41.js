@@ -19,6 +19,7 @@ const test = (num)=>{
   test1();
 }
 test(100);
-
+test(150);
+test(200);
 
 
