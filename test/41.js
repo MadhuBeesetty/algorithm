@@ -1,7 +1,6 @@
 const testing = require('../solutions/41.js');
 const test = (num)=>{
   let a = testing(num);
-  console.log(a);
   const test1 = (i=0) =>{
     const test2 = (j=2) =>{
       if(a[i]%j == 0){
@@ -20,5 +19,6 @@ const test = (num)=>{
   test1();
 }
 test(100);
-
+test(50);
+test(30);
 
